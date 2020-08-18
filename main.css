@@ -1,0 +1,103 @@
+#navbar {
+    width: 150px;
+    margin-left: 4px;
+    /* box-shadow: 8px 8px 10px lightgreen; */
+}
+
+.header {
+    margin-bottom: 2px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid orange;
+    background: linear-gradient(to left, #99ff99 0%, #ffffff 100%);
+    ;
+}
+
+h1 a {
+    color: black;
+    text-decoration: none !important;
+}
+
+#expand {
+    position: absolute;
+    top: 85px;
+    left: 120px;
+    size: 2px;
+    transition: linear, .5s;
+}
+
+#expand:hover {
+    font-size: 20px;
+}
+
+.sidebar-menu-left {
+    cursor: pointer;
+    background: linear-gradient(to top, #99ff99 0%, #ffffff 100%);
+}
+
+.borderStyle {
+     border-radius: 4px;
+}
+
+.container {
+    position: absolute;
+    top: 64px;
+    left: 160px;
+    /* border-top: 1px solid lightgreen; */
+    border-left: 1px solid lightgreen;
+    /* border-right: 1px solid lightgreen; */
+}
+.link {
+    padding: 5px;
+    position: relative;
+    list-style: none;
+    border-left: 2px solid #ff8080;
+    margin: 4px;
+    transition: ease-in-out, .5s;
+    /* background-color: green; */
+}
+
+.link:hover {
+    border-left: 4px solid #660000;
+}
+
+.link:first-child {
+    border-bottom: 1px solid black;
+}
+
+.menu-link {
+    text-decoration: none;
+    transition: linear, .5s;
+}
+
+.menu-link:hover {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu {
+    background: linear-gradient(to bottom, #99ff99 0%, #ffffff 100%);
+    padding: 2px;
+    height: 300px;
+}
+
+.pad {
+    padding: 3px;
+    padding-bottom: 0;
+}
+
+.formBox {
+    position: relative;
+    top: 80px;
+    right: 0;
+}
+
+.new {
+    padding-bottom: 5px;
+    width: 180px;
+    border-bottom: 1px solid lightgreen;
+    transition: ease-in-out, .8s;
+}
+
+.new:hover {
+    border-bottom: 2px solid green;
+}
