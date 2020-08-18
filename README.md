@@ -1,5 +1,5 @@
 # diary-app
 
-##More...
+## More...
 
 An app to write and store your memories and events
