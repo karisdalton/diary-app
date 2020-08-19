@@ -19,45 +19,49 @@
             <li class="link"><a href = "archive.html" class="menu-link text-dark stretched-link"><i class="fas fa-archive pad text-danger"></i>Archive</a></li>
         </ul>
     </div>
-    <div class="container w-75">
+    <h1 class="header mb-3 pr-3">
+        <a href="http://www.twitter.com" target="blank" class="social-links"><i class="fab fa-twitter ml-2 text-info"></i></a>
+        <a href="http://www.whatsapp.com" target="blank" class="social-links"><i class="fab fa-whatsapp text-success"></i></a>
+        <a href="http://www.facebook.com" target="blank" class="social-links"><i class="fab fa-facebook text-primary"></i></a>
+        <a href="http://www.instagram.com" target="blank" class="social-links"><i class="fab fa-instagram text-warning"></i></a>
+        <a href="index.html" class="header-link">
+        <i class="fas fa-book-open">
+        </i> MY DIARY</a></h1>
+    <div id ="navbar" class="sidebar">
+        <div class="bg-danger p-2 sidebar-menu-left">
+            <span class="pl-3" id="menuExpand">Expand<i class="fas fa-angle-double-down btn-expand" id="expand"></i></span>
+        </div>
+        <ul class="menu">
+            <li class="link"><a href = "index.html" class="menu-link text-dark mt-1 stretched-link"><i class="fas fa-pen pad text-danger"></i>Compose</a></li>
+            <li class="link"><a href = "archive.html" class="menu-link text-dark stretched-link"><i class="fas fa-archive pad text-danger"></i>Archive</a></li>
+        </ul>
+    </div>
+    <div class="container w-75 container-style">
             <div class="wrapper">
-            <div class="main-content">
-                <div class="h2">All Events</div>
-                <hr class="bg-danger">
-            <div class="row">
-                <div class="col-12 col-sm-4">
-                    <div class="card shadow-lg">
-                        <img src="./assets/pepper.jpg" class="card-img-top" alt="pepper">
-                        <div class="card-body">
-                            <h5 class="card-title" id="card-title">Card title</h5>
-                            <p class="card-text" id="card">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary  stretched-link">More</a>
-                        </div>
+                <div class="main-content">
+                    <div class="archive-header">
+                        <h2 class="h2">All Events</h2>
+                        <i class="fas fa-search search-icon text-danger"></i>
+                        <form>
+                            <div class="form-group float-right search-bar">
+                                <input type="text" class="form-control" placeholder="Search...">
+                            </div>
+                        </form>
                     </div>
-                </div>
-                <div class="col-12 col-sm-4">
-                    <div class="card shadow-lg">
-                        <img src="./assets/pepper.jpg" class="card-img-top" alt="pepper">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary  stretched-link">More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-4">
-                    <div class="card shadow-lg">
-                        <img src="./assets/pepper.jpg" class="card-img-top" alt="pepper">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary stretched-link">More</a>
-                        </div>
-                    </div>
+                    <hr class="bg-danger">
+                    <table class="table table-striped mt-4">
+                        <thead>
+                            <tr>
+                                <th>Event</th>
+                                <th>Date</th>
+                                <th>Description</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                <tbody id="book-list"></tbody>
+            </table>
                 </div>
             </div>
-        </div>
-        </div>
     </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
